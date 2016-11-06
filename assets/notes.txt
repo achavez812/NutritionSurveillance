@@ -1,0 +1,25 @@
+Each file is made up of 9 lines (one for each grade).
+The values are split by spaces.
+First value in each line is the standard deviation.
+First line +4 SD and last line is -4 SD.
+
+For the weight for age and weight for length/height, the files are in kilos, so just need to convert value to kilos if it was collected in pounds. Height is in centimeters.
+
+
+LHFA: Length Height For Age (1 set for each sex)
+	SD4pos to SD4neg (9 grades)
+	1857 entries (day 0 -> day 1856 with step of 1 day)
+	Length/Height is in centimeters
+	Slightly over 5 years of data
+WFA: Weight For Age (1 set for each sex)
+	SD4pos to SD4neg (9 grades)
+	1857 entries (day 0 -> day 1856 with step of 1 day)
+	Weight is in kilograms in one set, pounds in another
+	Slightly over 5 years of data
+WFL: Weight For Length (1 set for each sex)
+	SD4pos to SD4neg (9 grades)
+	758 entries (length 45.0 -> length 120.7 with step of 0.1 length)
+	Length is in centimeters
+	Weight is in kilograms in one set, pounds in another
+
+
